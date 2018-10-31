@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+              rel="stylesheet">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+        <style>
+            .awesome{
+                margin-top: auto;
+                background-image: url(E:\unsplash10.jpg);
+                background-position:bottom;
+                height: 500px;
+                color: Black;
+                background-repeat: no-repeat;
+                text-align:center;
+                padding-top: 120px;
+
+
+            }
+            .input-group {
+                text-align: center;
+                width: 289px;
+            }
+
+            .center_div{
+                margin: 0 auto;
+                width:80% /* value of your choice which suits your alignment */
+            }
+            #email{
+                width: 30px;
+            }
+            #appSummary{
+                text-align: center;
+            }
+            .download{
+                margin-top: 20px;
+                padding-bottom: 25px;
+                margin-bottom: -10px;
+                padding-top: 100px;
+                background-color: #F8F9FA;
+                height:300px;
+            }
+           
+            #downloadApp{
+                padding-bottom: 50px;
+                margin-bottom: 0px;
+            }
+        </style>
+    </head>
+    <body data-spy="scroll" data-target="#navbar" >
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="navbar">
+            <a class="navbar-brand" href="#">MyApp</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#jumbo">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#app">Download the App</a>
+                    </li>
+                </ul>
+                <form class="form-inline pull-xs-right">
+                    <input class="form-control mr-sm-2" type="email" placeholder="Email">
+                    <input class="form-control mr-sm-2" type="password" placeholder="Password">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Login</button>
+                </form>
+            </div>
+        </nav>
+        <div class="jumbotron jumbotron-fluid awesome" id="jumbo">
+            <div class="container">
+                <h1 class="display-4">My Awesome App!</h1>
+                <p class="lead">This is why YOU should download this awesome App!</p>
+                <hr class="my-4">
+                <p>Want to know More? Join our mailing list!</p>
+                <form class="form-inline" >
+                    <div class="col-md-4 mb-3 center_div" id="email">
+
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="inputGroupPrepend">@</span>
+                            </div>
+                            <input type="email" class="form-control" id="email" placeholder="Your Email" aria-describedby="inputGroupPrepend" required>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+
+        </div>
+        <br>
+        <div class="container" id="about">
+            <div id="appSummary">
+                <h1 style="font-size: 60px">Why This App Is Awesome</h1>
+                <br>
+                <p class="lead">Summary, once again, of Your app's awesomeness</p>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="container">
+            <div class="card-deck">
+                <div class="card">
+                    <img class="card-img-top" src="E:\download.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title"><i class="material-icons">description</i>Card title</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="E:\download.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title"><i class="material-icons">shopping_cart</i>Card title</h5>
+                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="E:\download.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title"><i class="material-icons">theaters</i>Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="jumbotron jumbotron-fluid download" id="app">
+            <div style="text-align: center;" class="container" id="downloadApp">
+                <h1 style="font-size: 35px;"class="display-4">Download the App!!</h1>
+                <img style="height: 50px;width:140px;"src="E:\download.png">
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.4/js/tether.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+        <script type="text/javascript">
+
+        </script>
+    </body>
+</html>
